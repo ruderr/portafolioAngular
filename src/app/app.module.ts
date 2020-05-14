@@ -1,7 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
+// Rutas
+import { app_routing } from './app.routes';
+
+// Componentes
+//import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -20,7 +24,8 @@ import { ProductoComponent } from './components/producto/producto.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+//    AppRoutingModule,
+    app_routing
   ],
   providers: [],
   bootstrap: [AppComponent]
