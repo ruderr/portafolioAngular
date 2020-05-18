@@ -12,11 +12,11 @@ import { InformacionService } from "./services/informacion.service";
 // Componentes
 //import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './components/header/header.component';
-import { FooterComponent } from './components/footer/footer.component';
-import { PortafolioComponent } from './components/portafolio/portafolio.component';
-import { AboutComponent } from './components/about/about.component';
-import { ProductoComponent } from './components/producto/producto.component';
+import { HeaderComponent } from './components/shared/header/header.component';
+import { FooterComponent } from './components/shared/footer/footer.component';
+import { PortafolioComponent } from './components/pages/portafolio/portafolio.component';
+import { AboutComponent } from './components/pages/about/about.component';
+import { ProductoComponent } from './components/pages/producto/producto.component';
 
 @NgModule({
   declarations: [
